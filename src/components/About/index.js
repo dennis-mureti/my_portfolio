@@ -25,7 +25,7 @@ const About = () => {
                 idx={15}/>
             </h1>
             <p>Description</p>
-            <p>Description</p>
+            <p>Dennis has a vast professional experience working with different stakeholders, organisations, and systems. I am an open minded, self-motivated, and problem solver. I possess interpersonal skills that promote teamwork while achieving the best result and providing solutions. Dennis is good at maintaining and handling stakeholder relationships professionally while creating better and customised solutions for the stakeholder and its clientele.</p>
             <p>Description</p>
             </div>
             <div className='stage-cube-cont'>
