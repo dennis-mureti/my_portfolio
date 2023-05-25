@@ -24,9 +24,11 @@ const About = () => {
                 strArray={['A' ,'b', 'o', 'u', 't', ' ', 'm', 'e']}
                 idx={15}/>
             </h1>
-            <p>Description</p>
-            <p>Dennis has a vast professional experience working with different stakeholders, organisations, and systems. I am an open minded, self-motivated, and problem solver. I possess interpersonal skills that promote teamwork while achieving the best result and providing solutions. Dennis is good at maintaining and handling stakeholder relationships professionally while creating better and customised solutions for the stakeholder and its clientele.</p>
-            <p>Description</p>
+            <p>Throughout my career, I have successfully developed and deployed a wide range of applications across various industries, including e-commerce, finance, healthcare, and entertainment. I am well-versed in multiple programming languages and frameworks, allowing me to adapt quickly to new technologies and deliver efficient and scalable solutions.</p>
+            <p>I am Proficient in developing mobile apps for iOS and Android platforms using industry-standard languages and frameworks such as React Native, and Flutter. Additionally, I have extensive experience in deploying mobile applications to various hosting platforms, including Google Play Store and Apple App Store. I am well-versed in the app submission process, ensuring compliance with platform guidelines and maximizing app visibility and discoverability.</p>
+            <p>In QA testing, I have hands-on experience with various testing methodologies, including manual testing, automated testing, and regression testing. I am skilled in using industry-standard testing tools and frameworks to perform functional, performance, and usability testing. My attention to detail and analytical mindset enable me to identify potential issues and provide actionable recommendations for improvement.</p>
+            <p>In addition to QA testing, I have a proven track record in technical writing. I am adept at creating clear and concise documentation, including user manuals, API documentation, release notes, and troubleshooting guides. I excel at translating complex technical concepts into easily understandable language for both technical and non-technical audiences.</p>
+            <p>I am excited about the opportunity to collaborate on challenging projects, leveraging my skills and expertise to drive innovation and deliver results. If you are looking for a dedicated and versatile software developer who can bring your ideas to life, I am confident that I am the right person for the job. </p>
             </div>
             <div className='stage-cube-cont'>
                 <div className='cubespinner'>

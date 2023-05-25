@@ -7,7 +7,7 @@ import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
 
 const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
-    const refForm  = useRef()
+    const form  = useRef()
 
     useEffect(() => {
         setTimeout(() => {
@@ -21,8 +21,8 @@ const Contact = () => {
          emailJs
          .sendForm(
              'service_rxhkww9', // service ID from emailJs
-             'template_uu0eayf', // template ID from emailJs
-             refForm.current,
+             'template_jk4ujqb', // template ID from emailJs
+             form.current,
              'enEhkN4qPCTjzYJEq'
          )
          .then (
@@ -46,11 +46,11 @@ const Contact = () => {
                 strArray = {['C', 'o', 'n', 't ', 'a', 'c', 't', ' ', 'm', 'e']}
                 idx = {15} />
             </h1>
-            <p>  I am interested in freelance opportunities - especially on ambitious
+            <p>  I am interested in software development, remote/freelance opportunities - especially on ambitious
             or large projects. However, if you have any other requests or
             questions, don't hesitate to contact me using below form either. </p>
             <div className='contact-form'>
-                <form ref={refForm} onSubmit={sendEmail}>
+                <form ref={form} onSubmit={sendEmail}>
                     <ul>
                         <li className='half'>
                             <input type="text" name="name" placeholder='Name' required />

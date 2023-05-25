@@ -1,17 +1,17 @@
 import { Link, NavLink } from 'react-router-dom';
 import './index.scss';
 import LogoS from '../../assets/images/mureti.png'
-import LogoSub from '../../assets/images/logo_sub.png'
+import LogoSub from '../../assets/images/MURETID.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
-import { faGithub, faLinkedin, faSkype } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 const Sidebar = () => {
     return (
     <div className='nav-bar'>
         <Link className = 'logo' to = '/'>
         <img src={LogoS} alt='logo'/>
-        <img className='sub-logo' src={LogoSub} alt='sloobadan'/>
+        <img className='sub-logo' src={LogoSub} alt='mureti'/>
         </Link>
         <nav>
             <NavLink exact='true' activeclassname = 'active' to ='/'>
@@ -37,8 +37,8 @@ const Sidebar = () => {
                 </a>
             </li>
             <li>
-                <a target="_blank" rel='noreferrer' >
-                    <FontAwesomeIcon icon={faSkype} color='#4d4d4e' />
+                <a target="_blank" rel='noreferrer' href='https://twitter.com/dennis_mureti'>
+                    <FontAwesomeIcon icon={faTwitter} color='#4d4d4e' />
                 </a>
             </li>
         </ul>
