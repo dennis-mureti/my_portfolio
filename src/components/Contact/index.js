@@ -46,7 +46,7 @@ const Contact = () => {
                 strArray = {['C', 'o', 'n', 't ', 'a', 'c', 't', ' ', 'm', 'e']}
                 idx = {15} />
             </h1>
-            <p>  I am interested in software development, remote/freelance opportunities - especially on ambitious
+            <p>  I am interested in software development, technical writing, Quality Assuarance, remote/freelance opportunities - especially on ambitious
             or large projects. However, if you have any other requests or
             questions, don't hesitate to contact me using below form either. </p>
             <div className='contact-form'>
