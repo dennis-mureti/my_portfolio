@@ -4,7 +4,7 @@ import LogoS from '../../assets/images/mureti.png'
 import LogoSub from '../../assets/images/MURETID.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
-import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin, faMedium, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 const Sidebar = () => {
     return (
@@ -34,6 +34,11 @@ const Sidebar = () => {
             <li>
                 <a target="_blank" rel='noreferrer' href='https://github.com/dennis-mureti'>
                     <FontAwesomeIcon icon={faGithub} color='#4d4d4e' />
+                </a>
+            </li>
+            <li>
+                <a target="_blank" rel='noreferrer' href='https://medium.com/@dennismureti47'>
+                    <FontAwesomeIcon icon={faMedium} color='#4d4d4e' />
                 </a>
             </li>
             <li>
